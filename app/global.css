@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: 79, 70, 229;
+  --color-secondary: 236, 72, 153;
+  --color-accent: 245, 158, 11;
+  --color-background: 249, 250, 251;
+  --color-text: 31, 41, 55;
+}
+
+body {
+  color: rgb(var(--color-text));
+  background: rgb(var(--color-background));
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, rgb(var(--color-primary)), rgb(var(--color-secondary)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
