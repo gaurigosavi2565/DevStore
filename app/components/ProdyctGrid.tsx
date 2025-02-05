@@ -4,6 +4,7 @@ import { useState } from "react"
 import { motion } from "framer-motion"
 import ProductCard from "./ProductCard"
 
+// Dummy data to represent product details
 const dummyProducts = [
   {
     id: 1,
@@ -56,19 +57,22 @@ const dummyProducts = [
 ]
 
 export default function ProductGrid() {
+  // State to hold the list of products (dummy data in this case)
   const [products] = useState(dummyProducts)
 
   return (
+    // Motion div for the grid layout with a fade-in animation
     <motion.div
       className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.5 }}
+      initial={{ opacity: 0 }} // Initial opacity is 0 (invisible)
+      animate={{ opacity: 1 }} // Animate opacity to 1 (fully visible)
+      transition={{ duration: 0.5 }} // The transition takes 0.5 seconds
     >
+      {/* Iterate over the products array and render a ProductCard for each product */}
       {products.map((product) => (
+        // ProductCard component receives product data as props
         <ProductCard key={product.id} product={product} />
       ))}
     </motion.div>
   )
 }
-
