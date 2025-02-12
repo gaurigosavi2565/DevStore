@@ -7,6 +7,7 @@
 /*This is css template using tailwind*/
 /* Custom CSS variables for colors */
 :root {
+  /* Primary color for your theme, usually used for buttons or highlights */
   --color-primary: 79, 70, 229;
   --color-secondary: 236, 72, 153;
   --color-accent: 245, 158, 11;
