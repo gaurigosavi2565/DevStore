@@ -9,7 +9,7 @@
 :root {
   /* Primary color for your theme, usually used for buttons or highlights */
   --color-primary: 79, 70, 229;
-    /* Secondary color, often used for accent or contrasting elements */
+   
   --color-secondary: 236, 72, 153;
   --color-accent: 245, 158, 11;
   --color-background: 249, 250, 251;
