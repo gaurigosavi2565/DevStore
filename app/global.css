@@ -1,7 +1,11 @@
+/* TailwindCSS base, components, and utilities imports */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+/*This is css template using tailwind*/
+/* Custom CSS variables for colors */
 :root {
   --color-primary: 79, 70, 229;
   --color-secondary: 236, 72, 153;
