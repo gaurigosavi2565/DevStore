@@ -20,7 +20,7 @@ body {
   color: rgb(var(--color-text));
   background: rgb(var(--color-background));
 }
-
+/* Custom class for gradient text effect */
 .gradient-text {
   background: linear-gradient(45deg, rgb(var(--color-primary)), rgb(var(--color-secondary)));
   -webkit-background-clip: text;
