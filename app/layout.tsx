@@ -1,12 +1,15 @@
-// Import global styles for the app
-import "./globals.css"
-
 // Importing the Metadata type from Next.js for page meta information
-import type { Metadata } from "next"
-import { Inter } from "next/font/google"
-import Header from "./components/Header"
-import Footer from "./components/Footer"
-import type React from "react" // Added import for React
+import type { Metadata } from "next";
+
+// Importing the 'Inter' font from Google Fonts
+import { Inter } from "next/font/google";
+
+// Importing components: Header and Footer
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
+// Importing React type for typing children as React.ReactNode (TypeScript support)
+import type React from "react";
 
 const inter = Inter({ subsets: ["latin"] })
 
