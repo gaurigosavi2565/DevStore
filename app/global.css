@@ -15,7 +15,7 @@
   --color-background: 249, 250, 251;
   --color-text: 31, 41, 55;
 }
-
+/* Apply background and text color to the body */
 body {
   color: rgb(var(--color-text));
   background: rgb(var(--color-background));
