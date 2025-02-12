@@ -1,5 +1,7 @@
 // Import global styles for the app
 import "./globals.css"
+
+// Importing the Metadata type from Next.js for page meta information
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import Header from "./components/Header"
